@@ -1,0 +1,11 @@
+.plans {
+  display: flex;
+  gap: 20px;
+}
+.plan {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: white;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+.file-name {
+  flex: 1;
+  margin-left: 10px;
+}

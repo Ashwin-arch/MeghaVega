@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">Meghavega</div>
+        <ul class="menu">
+            <li class="active">My Files</li>
+            <li>Recent</li>
+            <li>Trash</li>
+            <li class="upgrade">Upgrade</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div id="expiryBanner" class="banner hidden"></div>
+
+        <div class="top">
+            <h2>My Files</h2>
+            <div id="storageText"></div>
+        </div>
+
+        <div class="storageBarContainer">
+            <div class="storageBar">
+                <div id="storageFill"></div>
+            </div>
+        </div>
+
+        <div id="fileList" class="fileList">
+            <!-- Files inserted by JS -->
+        </div>
+
+        <button id="uploadBtn" class="uploadBtn">+</button>
+    </div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
